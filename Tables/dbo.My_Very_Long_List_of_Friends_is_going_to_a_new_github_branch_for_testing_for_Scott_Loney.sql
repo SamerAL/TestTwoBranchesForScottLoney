@@ -2,7 +2,7 @@ SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 SET ANSI_PADDING ON
 GO
-CREATE TABLE [dbo].[My_Very_Long_List_of_Friends_is_going_to_a_new_github_branch] (
+CREATE TABLE [dbo].[My_Very_Long_List_of_Friends_is_going_to_a_new_github_branch_for_testing_for_Scott_Loney] (
 		[FriendID]     [int] NOT NULL,
 		[Name]         [nvarchar](20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		[Surname]      [nvarchar](40) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
@@ -14,5 +14,5 @@ CREATE TABLE [dbo].[My_Very_Long_List_of_Friends_is_going_to_a_new_github_branch
 	ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-ALTER TABLE [dbo].[My_Very_Long_List_of_Friends_is_going_to_a_new_github_branch] SET (LOCK_ESCALATION = TABLE)
+ALTER TABLE [dbo].[My_Very_Long_List_of_Friends_is_going_to_a_new_github_branch_for_testing_for_Scott_Loney] SET (LOCK_ESCALATION = TABLE)
 GO
